@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgame.a  CMakeFiles/game.dir/tarot.c.o
-/usr/bin/ranlib libgame.a

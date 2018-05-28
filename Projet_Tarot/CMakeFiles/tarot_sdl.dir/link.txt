@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=c99 -g -Wall   CMakeFiles/tarot_sdl.dir/tarot_graphic.c.o CMakeFiles/tarot_sdl.dir/TI.c.o CMakeFiles/tarot_sdl.dir/game.c.o  -o tarot_sdl -rdynamic -lSDL2 -lSDL2_image -lSDL2 -lSDL2_ttf -lSDL2 -lm -lSDL2_image -lSDL2_ttf -lm 

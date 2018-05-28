@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=c99 -g -Wall   CMakeFiles/tarot.dir/tarot.c.o  -o tarot -rdynamic libgame.a 
