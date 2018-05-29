@@ -326,7 +326,7 @@ float check_win(float pts, int obj){
 //repartit les points de la partie entre chaque joueur
 void repartition_points(game g, float pts_a, float pts_d){
     //calcul points pour chaque joueur
-    if(g->nb_player<5) pts_d = -1*pts_a/(g->nb_player-1);
+    if(g->nb_player<5) pts_d = -1*pts_a/(g->nb_player-1); // a modifier car les pts defenseur ne sont pas juste le neg cest 91 - pts a non? ERREUR ICI !!
     else{
         pts_d = -1*2*pts_a/(g->nb_player-2);
     }
